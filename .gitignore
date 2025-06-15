@@ -64,4 +64,8 @@ data/reports/
 data/tests/
 data/docs/
 
+<<<<<<< HEAD
 .data_storage/
+=======
+.dvc/tmp/
+>>>>>>> task-2
