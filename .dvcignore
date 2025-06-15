@@ -1,0 +1,31 @@
+# Add patterns of files dvc should ignore, which could improve
+# the performance. Learn more at
+# https://dvc.org/doc/user-guide/dvcignore
+# Temporary files
+*.tmp
+*.temp
+*.cache
+*.swp
+*.DS_Store
+
+# Logs and binaries
+*.log
+*.bin
+*.exe
+*.pyc
+__pycache__/
+
+# IDE & environment files
+env/
+.vscode/
+.idea/
+
+# Sensitive data
+*.env
+*.secret
+config/private/
+
+# DVC internal (optional)
+.dvc/tmp/
+# DVC cache and state
+.dvc/cache/

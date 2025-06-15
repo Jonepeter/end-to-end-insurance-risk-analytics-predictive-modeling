@@ -36,11 +36,6 @@ ENV/
 *.swp
 *.swo
 
-# DVC
-.dvc/
-.dvc/cache/
-.dvc/tmp/
-.dvc/config
 
 # Data
 *.csv
