@@ -129,7 +129,7 @@ class InsuranceEDA:
         # Create histograms for numerical columns
         for col in numerical_cols:
             plt.figure(figsize=(8, 6))
-            self.data[col].value_counts().plot(kind='bar')
+            sns.hitstplot(data = self.data, x = col)
             plt.title(f"Distribution of {col}")
             plt.xlabel(f" Values{col}")
             plt.ylabel("Count")
