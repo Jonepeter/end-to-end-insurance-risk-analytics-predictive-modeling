@@ -74,3 +74,47 @@ dvc init
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Project Structure 
+
+```bash
+📁end-to-end-insurance-risk-analytics-predictive-modeling
+└── 📁.data_storage
+    └── .gitignore
+    └── insurance_data.parquet
+    └── insurance_data.parquet.dvc
+└── 📁.dvc
+    └── .gitignore
+    └── 📁cache
+        └── 📁files
+            └── 📁md5
+                └── 📁74
+                    └── bb8a34a6c4870c5f6e241274798984
+    └── config
+    └── config.local
+└── 📁.github
+    └── 📁workflows
+        └── python-app.yml
+└── 📁data
+    └── insurance_data.parquet
+    └── 📁processed
+    └── 📁raw
+        └── insurance_data.parquet
+        └── MachineLearningRating_v3.txt
+└── 📁notebooks
+    └── 01_EDA_Insurance.ipynb
+    └── README.md
+└── 📁scripts
+    └── __init__.py
+    └── README.md
+└── 📁src
+    └── __init__.py
+    └── eda_analysis.py
+└── 📁tests
+    └── __init__.py
+└── .dvcignore
+└── .gitignore
+└── LICENSE
+└── README.md
+└── requirements.txt
+```
