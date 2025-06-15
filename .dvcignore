@@ -27,4 +27,5 @@ config/private/
 
 # DVC internal (optional)
 .dvc/tmp/
-.data_storage/
+# DVC cache and state
+.dvc/cache/
