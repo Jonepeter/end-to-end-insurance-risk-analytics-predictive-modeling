@@ -63,3 +63,5 @@ data/notebooks/
 data/reports/
 data/tests/
 data/docs/
+
+.data_storage/
