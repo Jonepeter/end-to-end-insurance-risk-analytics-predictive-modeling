@@ -252,10 +252,15 @@ class InsuranceRiskModel:
         
         print(f"\nBest model: {best_model_name}")
         
-        return results, self.best_model
+        return results, models[best_model_name]
     
     def analyze_feature_importance(self, model, X_test, top_n=10):
-        """Analyze feature importance using SHAP values"""
+        """
+        Analyze feature importance using SHAP values.
+        Args:
+            model: The trained model.
+            X_test: The test data.
+        """
         print("Analyzing feature importance with SHAP...")
         
         # Get feature names after preprocessing
@@ -348,10 +353,3 @@ class InsuranceRiskModel:
         
         print("="*60)
 
-def main():
-    """Main function to demonstrate the modeling pipeline"""
-    # This would be called from the notebook
-    pass
-
-if __name__ == "__main__":
-    main() 
